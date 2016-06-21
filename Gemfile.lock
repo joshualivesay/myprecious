@@ -90,6 +90,7 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -141,6 +142,7 @@ DEPENDENCIES
   active_model_serializers
   byebug
   listen (~> 3.0.5)
+  pg
   pry
   puma (~> 3.0)
   rack-cors
@@ -152,4 +154,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.11.2
+   1.12.4
